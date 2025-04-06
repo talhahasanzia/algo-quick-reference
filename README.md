@@ -1,7 +1,44 @@
 # algo-quick-reference
 Quick reference of algos by Copilot (Claude 3.5)
 
+## Difficulty Level Guide
+🟢 Beginner: Basic programming knowledge required
+🟡 Easy-Intermediate: Familiar with basic data structures
+🟠 Intermediate: Good programming foundation needed
+🔴 Advanced: Strong algorithm understanding required
+⚫ Expert: Complex problem-solving skills needed
 
+## Quick Difficulty Reference
+🟢 Beginner
+- [Two Pointers](#1-two-pointers-)
+- [Binary Search](#5-binary-search-)
+- [Math and Geometry](#20-math-and-geometry-)
+- [Sliding Window](#2-sliding-window-)
+
+🟡 Easy-Intermediate
+- [Fast and Slow Pointers](#3-fast-and-slow-pointers-floyds-cycle-)
+- [String Manipulation](#15-string-manipulation-)
+- [Matrix Traversal](#16-matrix-traversal-)
+- [Prefix Sum](#14-prefix-sum-)
+
+🟠 Intermediate
+- [BFS (Breadth First Search)](#7-bfs-breadth-first-search-)
+- [DFS (Depth First Search)](#6-dfs-depth-first-search-)
+- [Merge Intervals](#4-merge-intervals-)
+- [Bit Manipulation](#13-bit-manipulation-)
+- [Greedy Algorithms](#17-greedy-algorithms-)
+
+🔴 Advanced
+- [Monotonic Stack/Queue](#11-monotonic-stackqueue-)
+- [Union Find](#10-union-find-disjoint-set-)
+- [Rolling Hash](#19-rolling-hash-)
+- [Trie (Prefix Tree)](#18-trie-prefix-tree-)
+
+⚫ Expert
+- [Dynamic Programming](#8-dynamic-programming-)
+- [Backtracking](#9-backtracking-)
+- [Topological Sort](#12-topological-sort-)
+  
 ## 1. Two Pointers
 **Description:**
 - Use two pointers to traverse array/string, usually moving toward each other or in same direction
@@ -26,7 +63,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Remove duplicates
 - Palindrome verification
 
-## 2. Sliding Window
+## 2. Sliding Window 🟢
 **Description:**
 - Maintain a "window" that slides over array/string
 - Track window state (sum, max, min, etc.)
@@ -50,7 +87,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Minimum window substring
 - Maximum sum of any contiguous subarray
 
-## 3. Fast and Slow Pointers (Floyd's Cycle)
+## 3. Fast and Slow Pointers (Floyd's Cycle) 🟡
 **Description:**
 - Two pointers moving at different speeds
 - Used primarily for cycle detection
@@ -73,7 +110,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Middle of linked list
 - Happy number problem
 
-## 4. Merge Intervals
+## 4. Merge Intervals 🟠
 **Description:**
 - Deal with overlapping intervals
 - Combine or find intersections/unions
@@ -95,7 +132,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Meeting rooms required
 - Employee free time
 
-## 5. Binary Search
+## 5. Binary Search 🟢
 **Description:**
 - Divide and conquer approach
 - Reduces search space by half in each step
@@ -119,7 +156,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Search insert position
 - Find minimum in rotated sorted array
 
-## 6. DFS (Depth First Search)
+## 6. DFS (Depth First Search) 🟠
 **Description:**
 - Explores as far as possible along each branch
 - Uses stack (recursive or explicit)
@@ -143,7 +180,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Course schedule
 - Word search
 
-## 7. BFS (Breadth First Search)
+## 7. BFS (Breadth First Search) 🟠
 **Description:**
 - Explores all neighbors before moving to next level
 - Uses queue
@@ -166,7 +203,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Shortest path in binary matrix
 - Rotting oranges
 
-## 8. Dynamic Programming
+## 8. Dynamic Programming ⚫
 **Description:**
 - Breaks problem into smaller subproblems
 - Stores results for reuse
@@ -190,7 +227,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Longest common subsequence
 - House robber
 
-## 9. Backtracking
+## 9. Backtracking ⚫
 **Description:**
 - Build solutions incrementally
 - Abandon solutions ("backtrack") when they cease to be valid
@@ -214,7 +251,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Palindrome partitioning
 - Subsets/Combinations
 
-## 10. Union Find (Disjoint Set)
+## 10. Union Find (Disjoint Set) 🔴
 **Description:**
 - Tracks set of elements partitioned into disjoint sets
 - Supports union and find operations
@@ -238,7 +275,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Account merge
 
 
-## 11. Monotonic Stack/Queue
+## 11. Monotonic Stack/Queue 🔴
 **Description:**
 - Stack/queue that maintains elements in increasing/decreasing order
 - Elements violating monotonic property are removed
@@ -260,7 +297,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Largest rectangle in histogram
 - Remove K digits
 
-## 12. Topological Sort
+## 12. Topological Sort ⚫
 **Description:**
 - Orders vertices in directed graph where for each edge (u,v), u comes before v
 - Used for dependency scheduling
@@ -282,7 +319,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Build System Dependencies
 - Recipe Steps Ordering
 
-## 13. Bit Manipulation
+## 13. Bit Manipulation 🟠
 **Description:**
 - Directly manipulate bits of numbers
 - Uses bitwise operators (AND, OR, XOR, shift)
@@ -304,7 +341,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Counting Bits
 - Number of 1 Bits
 
-## 14. Prefix Sum
+## 14. Prefix Sum 🟡
 **Description:**
 - Precompute cumulative sums
 - Answer range queries efficiently
@@ -326,7 +363,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Subarray Sum Equals K
 - Number of Subarrays with Bounded Maximum
 
-## 15. String Manipulation
+## 15. String Manipulation 🟡
 **Description:**
 - Pattern matching
 - String transformations
@@ -349,7 +386,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - String to Integer (atoi)
 - Longest Common Prefix
 
-## 16. Matrix Traversal
+## 16. Matrix Traversal 🟡
 **Description:**
 - Specific patterns for traversing 2D arrays
 - Often involves spiral, diagonal, or boundary traversal
@@ -372,7 +409,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Set Matrix Zeroes
 - Word Search
 
-## 17. Greedy Algorithms
+## 17. Greedy Algorithms 🟠
 **Description:**
 - Makes locally optimal choice at each step
 - Hopes to find global optimum
@@ -394,7 +431,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Gas Station
 - Minimum Number of Arrows to Burst Balloons
 
-## 18. Trie (Prefix Tree)
+## 18. Trie (Prefix Tree) 🔴
 **Description:**
 - Tree-like data structure for string operations
 - Efficient for prefix-based operations
@@ -416,7 +453,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Design Add and Search Words
 - Replace Words
 
-## 19. Rolling Hash
+## 19. Rolling Hash 🔴
 **Description:**
 - Computing hash values for sliding window of text
 - Useful for string pattern matching
@@ -438,7 +475,7 @@ Quick reference of algos by Copilot (Claude 3.5)
 - Implement strStr()
 - Find All Anagrams in a String
 
-## 20. Math and Geometry
+## 20. Math and Geometry 🟢
 **Description:**
 - Mathematical properties and geometric concepts
 - Often requires understanding of basic math principles
