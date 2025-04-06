@@ -3,9 +3,13 @@ Quick reference of algos by Copilot (Claude 3.5)
 
 ## Difficulty Level Guide
 🟢 Beginner: Basic programming knowledge required
+
 🟡 Easy-Intermediate: Familiar with basic data structures
+
 🟠 Intermediate: Good programming foundation needed
+
 🔴 Advanced: Strong algorithm understanding required
+
 ⚫ Expert: Complex problem-solving skills needed
 
 ## Quick Difficulty Reference
